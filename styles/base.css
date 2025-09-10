@@ -1,0 +1,119 @@
+/* Google Fonts */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background: #f9fafc;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: #0c2d57;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-family: 'Playfair Display', serif;
+}
+
+header span {
+  color: #ffd700;
+  display: block; /* centers the span text */
+  margin-top: 5px;
+}
+
+/* Navigation */
+nav {
+  background: #333;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 15px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  background: #ffd700;
+  color: #333;
+  border-radius: 5px;
+}
+
+/* Main Layout */
+main {
+  max-width: 1000px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  padding: 0 20px;
+}
+
+section, aside {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+}
+
+h2 {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  font-family: 'Playfair Display', serif;
+}
+
+/* About Section */
+.about img {
+  max-width: 160px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.location {
+  margin-top: 20px;
+}
+
+.flag-info {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.flag-info img {
+  width: 120px;
+  border: 1px solid #ddd;
+}
+
+.flag-caption {
+  font-size: 0.9rem;
+  font-style: italic;
+  color: #444;
+  margin-top: 8px;
+}
+
+/* Footer */
+footer {
+  background: #0c2d57;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+footer small {
+  display: block;
+  margin-top: 5px;
+  color: #ffd700;
+}
